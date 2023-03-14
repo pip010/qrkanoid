@@ -55,7 +55,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!58 &3434322733892066648
 CircleCollider2D:
@@ -88,6 +88,7 @@ MonoBehaviour:
   isLightningBall: 0
   lightningBallEffect: {fileID: 0}
   lightningBallDuration: 10
+  speedUpOnBrickHit: 2
 --- !u!212 &-73461529916941292
 SpriteRenderer:
   m_ObjectHideFlags: 0

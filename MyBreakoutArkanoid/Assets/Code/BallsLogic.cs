@@ -50,7 +50,7 @@ public class BallsLogic: MonoBehaviour
             Vector3 ballPosition = new Vector3(paddlePosition.x, paddlePosition.y + .27f, 0);
             initialBall.transform.position = ballPosition;
 
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetKeyDown(KeyCode.Space))
             {
                 initialBallRb.isKinematic = false;
                 initialBallRb.AddForce(new Vector2(0, initialBallSpeed));
